@@ -1,0 +1,385 @@
+
+
+body{
+	display: flex;
+	flex-direction: column;
+align-items: center;
+width: 100%;
+margin:0 auto;}
+
+header{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+.first{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	align-items: center;
+
+
+}
+
+
+.logo{
+	display: flex;
+	width: 40%;
+}
+
+.buttons>a{text-decoration: none;
+color: black;
+}
+
+.buttons{
+	display: flex;
+	justify-content: space-around;
+width: 60%;
+align-items: center;
+
+}
+
+.buttons>button{
+	border-radius: 5px;
+	width: 15%;
+	height: 30px;
+}
+
+.uno{
+	background: white;
+	color:#FB8F1D;
+	border-color:#FB8F1D ;
+}
+
+.dos{
+	background:#FB8F1D ;
+	color:white;
+	border-color:#FB8F1D ;
+}
+
+
+.second{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-top:40px ;
+}
+
+
+.explore{
+	display: flex;
+	flex-direction:column;
+justify-content:center;
+	
+}
+
+.travel{
+	font-size: 70px;
+}
+
+
+.dos2{
+background:#FB8F1D ;
+	color:white;
+	border-color:#FB8F1D ;
+	justify-content: flex-start;
+border-radius: 5px;
+	width: 50%;
+	height: 50px;
+	text-align: center;
+display: inline-block;
+}
+
+main{
+
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+
+.third{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top:40px ;
+	
+}
+
+
+.image{
+	display: flex;
+}
+
+
+.text{
+	display: flex;
+	flex-direction:column;
+justify-content:center;
+
+}
+
+
+.newway{
+	font-size: 50px;
+}
+
+.dos3{
+background:#FB8F1D ;
+	color:white;
+	border-color:#FB8F1D ;
+	justify-content: flex-start;
+border-radius: 5px;
+	width: 30%;
+	height: 50px;
+	text-align: center;
+display: inline-block;
+}
+
+
+
+
+.bild{display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	
+
+}
+
+
+.fear{
+	display: flex;
+
+	justify-content: flex-start;
+	width: 95%;
+	font-size: 36px;
+}
+
+.images{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: space-around;
+}
+
+
+.images>div{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 20%;
+	height: 380px;
+		display: flex;
+	align-items: flex-end;
+	border-radius: 4px;
+}
+
+.images1{
+	background-image: url(../6.png);
+		
+}
+.images2{background-image: url(../5.png);
+
+}
+
+.images5{background-image: url(../7.jpg);
+
+}
+
+.images4{background-image: url(../8.jpg);
+
+}
+
+
+.white{
+	border-radius: 4px;
+	background: white;
+	width: 40%;
+
+}
+
+
+.white>h2{
+	font-size: 17px;
+}
+
+.white>p{
+	font-size: 15px;
+}
+
+
+.stars{
+	display: flex;
+	flex-direction: row;
+}
+
+
+.test{
+	
+	width: 35%;
+}
+
+.testimonials>h2{
+	font-size: 40px;
+}
+
+.testimonials{margin-bottom: 100px}
+
+
+.white2>h2{
+	font-size: 17px;
+}
+
+.white2>p{
+	font-size: 15px;
+}
+
+
+.star{margin-left: 10px}
+
+
+
+.fourth{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-top:40px ;
+	
+}
+
+
+.images3{background-image: url(../11.png);
+	width:40%;
+	height: 700px;
+	background-repeat: no-repeat;
+background-position: left ;
+}
+
+
+.white10{
+	width: 20%;
+	height: 50px;
+	background-color: white;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-radius: 10px;
+	position:relative ;
+	left: 45%;
+	top: 78.5%;
+
+}
+
+.white10>img{width: 30%;
+	height: 70%;
+
+}
+
+
+.lastarticle{
+	width: 100%;
+	
+	
+}
+
+.trend{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+
+
+.yellow{color:orange;}
+
+.story{
+	margin-left: 25px;
+	font-size: 40px;
+}
+
+
+
+.pictures{
+	width: 100%;
+
+	display: flex;
+	justify-content: space-around;
+}
+
+.change2{
+	height: 300px;
+	width: 320px;
+}
+
+
+.change3{
+	height: 300px;
+	width: 320px;
+}
+
+
+.change4{
+	height: 300px;
+	width:320px;
+}
+
+
+.change{width:320px;
+height:300px}
+
+.read{color: orange;}
+
+
+
+
+footer{
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
+	margin-top: 200px;
+
+
+
+	
+}
+
+
+.lastdiv{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	width: 100%;
+
+
+
+
+
+
+
+}
+
+.lastlastlastdiv{
+	display: flex;
+	flex-direction: column;
+}
+
+dt{color: black;
+margin-left:37px;
+font-size:16px;
+color:black;
+font-family: 'Anton', sans-serif; }
+
+
+dd{color: black;
+font-size: 15px;
+margin-top: 10px;}
+
